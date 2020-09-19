@@ -3,12 +3,12 @@ using namespace System;
 using namespace System::Windows::Forms;
 
 [STAThreadAttribute]
-int ejercicio4(array<String^>^ args)
+int main(array<String^>^ args)
 {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	Lab2GabrielMajano::MyForm Form;
-	Application::Run(% Form);
+	Lab2GabrielMajano::MyForm mainForm;
+	Application::Run(% mainForm);
 	return 0;
 }
 
